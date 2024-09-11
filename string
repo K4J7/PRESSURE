@@ -6,8 +6,7 @@ end
 -- Define the URLs
 local url1 = 'https://raw.githubusercontent.com/K4J7/PRESSURE/main/pressure?token=GHSAT0AAAAAACXLBKJYXFVWXDRL35TDBA6AZXBNCQQ'
 local url2 = 'https://raw.githubusercontent.com/K4J7/PRESSURE/main/info?token=GHSAT0AAAAAACXLBKJZNDDZWMZZMT25ZDYWZXBNDEQ'
-local url3 = 'https://raw.githubusercontent.com/K4J7/bladeball/main/bladeball2'
- 
+
 -- Create coroutines for each loadstring
 local coroutine1 = coroutine.create(function()
     loadScript(url1)
@@ -17,12 +16,9 @@ local coroutine2 = coroutine.create(function()
     loadScript(url2)
 end)
 
-local coroutine3 = coroutine.create(function()
 
-loadScript(url3)
-end)
  
 -- Start both coroutines
 coroutine.resume(coroutine1)
 coroutine.resume(coroutine2)
-coroutine.resume(coroutine3)
+
