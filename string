@@ -4,7 +4,7 @@ local function loadScript(url)
 end
  
 -- Define the URLs
-local url1 = 'https://raw.githubusercontent.com/K4J7/bladeball/main/listener?token=GHSAT0AAAAAACXKDFCINXXG4N42MZMX5MLSZXASVCQ'
+local url1 = 'https://raw.githubusercontent.com/K4J7/PRESSURE/main/pressure'
 local url2 = 'https://raw.githubusercontent.com/K4J7/bladeball/main/bladeball?token=GHSAT0AAAAAACXKDFCIG46EYA2K5FQA74IQZXASX7A'
 local url3 = 'https://raw.githubusercontent.com/K4J7/bladeball/main/bladeball2'
  
